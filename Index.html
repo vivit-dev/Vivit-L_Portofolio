@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main-section">
+        <img src="1_pf.jpg" alt="Portofolio Image" class="full-width-image">
+        <div class="text-overlay">
+            <h1>Selamat Datang di VL Perpustakaan</h1>
+            <p>Tambah wawasanmu dengan pengetahuan umum</p>
+            
+            <!--Search Box-->
+            <div class="search-box">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Cari Pengetahuan" aria-label="Cari">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <!--button bootstrap-->
+        <div class="button-group">
+            <a href="login.html" class="btn custom-btn">Masuk</a>
+            <a href="register.html" class="btn custom-btn">Daftar</a>
+        </div>
+    </div>
+
+    <!-- Content Section Below Image -->
+        <section class="kategori-pengetahuan my-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Kategori Pengetahuan</h2>
+                <div class="row">
+                    <!-- Kategori Sains -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="sains.jpg" class="card-img-top" alt="Sains">
+                            <div class="card-body">
+                                <h5 class="card-title">Sains</h5>
+                                <p class="card-text">Jelajahi buku-buku sains yang mencakup fisika, biologi, dan kimia.</p>
+                                <a href="sains.html" class="btn btn-primary">Lihat Buku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Kategori Sejarah -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="sejarah.jpg" class="card-img-top" alt="Sejarah">
+                            <div class="card-body">
+                                <h5 class="card-title">Sejarah</h5>
+                                <p class="card-text">Pelajari peristiwa bersejarah dari seluruh dunia.</p>
+                                <br><a href="sejarah.html" class="btn btn-primary">Lihat Buku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tombol Kategori Teknologi -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="teknologi.jpg" class="card-img-top" alt="Teknologi">
+                            <div class="card-body">
+                                <h5 class="card-title">Teknologi</h5>
+                                <p class="card-text">Ikuti perkembangan terbaru dalam dunia teknologi dan inovasi.</p>
+                                <a href="teknologi.html" class="btn btn-primary">Lihat Buku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-light text-center py-3">
+            <p>&copy; 2024 VL Perpustakaan</p>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

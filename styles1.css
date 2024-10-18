@@ -1,0 +1,72 @@
+body {
+            background-color: #f8f9fa;
+        }
+.category-title {
+            text-align: center;
+            margin-top: 20px;
+        }
+.article-card {
+            margin-bottom: 20px;
+        }
+.category-title {
+            text-align: center;
+            margin-top: 20px;
+            color: #2c3e50;
+        }
+.btn-download {
+            background-color: #16a085;
+            color: white;
+        }
+.btn-download:hover {
+            background-color: #1abc9c;
+        }
+        
+.btn1-download {
+            background-color: #2980b9;
+            color: white;
+        }
+.btn1-download:hover {
+            background-color: #3498db;
+        }
+.btn2-download {
+        background-color: #e74c3c;
+        color: white;
+    }
+.btn2-download:hover {
+        background-color: #c0392b;
+    }
+.btn3-download {
+        background-color: #e67e22;
+        color: white;
+    }
+.btn3-download:hover {
+        background-color: #d35400;
+    }
+.btn4-download {
+        background-color: #2980b9;
+        color: white;
+    }
+.btn4-download:hover {
+        background-color: #3498db;
+    }
+.btn5-download {
+        background-color: #27ae60;
+        color: white;
+    }
+.btn5-download:hover {
+        background-color: #2ecc71;
+    }
+.btn6-download {
+        background-color: #3498db;
+        color: white;
+    }
+.btn6-download:hover {
+        background-color: #2980b9;
+    }
+.btn7-download {
+        background-color: #34495e;
+        color: white;
+    }
+.btn7-download:hover {
+        background-color: #2c3e50;
+    }
